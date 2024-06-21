@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    background-color: blue;
+    h1{
+        color: yellow;
+    }
+}
+
+.heart-icon {
+    position: relative;
+    top: -5px;
+    transform: translateY(-50%);
+  }
